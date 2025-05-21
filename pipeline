@@ -1,4 +1,4 @@
-name: Lint Checker
+name: Lint and Build
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
       - name: Rodar o Linter
         run: npm run lint
 
-build:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -41,14 +41,5 @@ build:
         run: npm install
 
       - name: Rodar o Build
-        run: npm run build
-
- 
-"scripts": {
-  "lint": "eslint ."
-}
-
-
-npm install eslint --save-dev
-npx eslint --init
+        run: npm run build
 
