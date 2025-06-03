@@ -4,11 +4,11 @@ Este projeto utiliza logs estruturados no backend para garantir rastreabilidade,
 
 ---
 
-## 🧱 Formato dos Logs
+##  Formato dos Logs
 
 Todos os logs são emitidos no formato **JSON**, seguindo o padrão abaixo:
 
-### 🔹 Exemplo de Log de Requisição (INFO)
+###  Exemplo de Log de Requisição (INFO)
 
 ```json
 {
